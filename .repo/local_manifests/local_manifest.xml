@@ -7,6 +7,7 @@
   <remote name="googlecode"
           fetch="https://code.google.com/p/" />
   
+    <remove-project name="SlimRoms/packages_inputmethods_LatinIME"/>  
     <remove-project name="SlimRoms/android_external_bluetooth_bluedroid"/>  
     <remove-project name="SlimRoms/bootable_recovery"             groups="pdk" />
     <remove-project name="SlimRoms/android_bionic" />
@@ -60,8 +61,9 @@
     <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project> 
-    <project path="system/netd"                 name="SlimKatXperia/android_system_netd"                 remote="github"     revision="master" />
-    <project path="external/valgrind"           name="SlimKatXperia/android_external_valgrind"           remote="github"     revision="master" />
+    <project path="system/netd"                     name="SlimKatXperia/android_system_netd"                remote="github"     revision="master" />
+    <project path="external/valgrind"               name="SlimKatXperia/android_external_valgrind"          remote="github"     revision="master" />
+    <project name="packages/inputmethods/LatinIME"  name="SlimKatXperia/packages_inputmethods_LatinIME"     remote="github"     revision="kk4.4"/>
     
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
