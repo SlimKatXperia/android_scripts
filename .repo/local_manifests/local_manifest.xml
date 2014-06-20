@@ -63,7 +63,7 @@
     </project> 
     <project path="system/netd"                     name="SlimKatXperia/android_system_netd"                remote="github"     revision="master" />
     <project path="external/valgrind"               name="SlimKatXperia/android_external_valgrind"          remote="github"     revision="master" />
-    <project name="packages/inputmethods/LatinIME"  name="SlimKatXperia/packages_inputmethods_LatinIME"     remote="github"     revision="master"/>
+    <project path="packages/inputmethods/LatinIME"  name="SlimKatXperia/packages_inputmethods_LatinIME"     remote="github"     revision="master"/>
     
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
