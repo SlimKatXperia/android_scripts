@@ -7,7 +7,9 @@
   <remote name="googlecode"
           fetch="https://code.google.com/p/" />
   
-    <remove-project name="SlimRoms/packages_inputmethods_LatinIME"/>  
+    <remove-project name="SlimRoms/packages_inputmethods_LatinIME"/>
+    <remove-project name="SlimRoms/packages_apps_Settings"/>
+    <remove-project name="SlimRoms/packages_apps_SlimCenter"/>    
     <remove-project name="SlimRoms/android_external_bluetooth_bluedroid"/>  
     <remove-project name="SlimRoms/bootable_recovery"             groups="pdk" />
     <remove-project name="SlimRoms/android_bionic" />
@@ -64,7 +66,10 @@
     <project path="system/netd"                     name="SlimKatXperia/android_system_netd"                remote="github"     revision="master" />
     <project path="external/valgrind"               name="SlimKatXperia/android_external_valgrind"          remote="github"     revision="master" />
     <project path="packages/inputmethods/LatinIME"  name="SlimKatXperia/packages_inputmethods_LatinIME"     remote="github"     revision="master"/>
-    
+    <project path="packages/apps/Settings"          name="SlimKatXperia/packages_apps_Settings"             remote="github"     revision="master"/>
+    <project path="packages/apps/SlimCenter"        name="SlimKatXperia/packages_apps_SlimCenter"           remote="github"     revision="kk4.4"/>
+    <project path="packages/apps/OTAUpdater"        name="XperiaSTE/android_packages_apps_OTAUpdater"       remote="github"     revision="aosx"/>
+
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
     <project path="device/sony/kumquat"           name="SlimKatXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
