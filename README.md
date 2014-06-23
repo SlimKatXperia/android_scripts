@@ -9,11 +9,16 @@ QuickStart:
     cd slimkat;
     repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4;
     ./Update.sh;
+    ./OTAConfig.sh;
     ./CompileROM.sh -u; (Xperia U)
     ./CompileROM.sh -p; (Xperia P)   
     ./CompileROM.sh -s; (Xperia Sola)
     ./CompileROM.sh -g; (Xperia Go) 
-    
+
+OTA Updater:
+
+    If you want use OTA Updater and OTAConfig.sh script go on OTA Update Center website > https://www.otaupdatecenter.pro/
+
 Credits:
     
     @munjeni: Kernel, porting Android Kitkat to Xperia 2012 devices and bugfix
