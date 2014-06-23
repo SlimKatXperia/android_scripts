@@ -17,7 +17,7 @@ QuickStart:
 
 OTA Updater:
 
-    If you want use OTA Updater and OTAConfig.sh script go on OTA Update Center website > https://www.otaupdatecenter.pro/
+    If you want to use OTA Updater and OTAConfig.sh script go to OTA Update Center website > https://www.otaupdatecenter.pro/
 
 Credits:
     
