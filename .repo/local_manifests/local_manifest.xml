@@ -68,7 +68,7 @@
     <project path="packages/inputmethods/LatinIME"  name="SlimKatXperia/packages_inputmethods_LatinIME"     remote="github"     revision="master"/>
     <project path="packages/apps/Settings"          name="SlimKatXperia/packages_apps_Settings"             remote="github"     revision="master"/>
     <project path="packages/apps/SlimCenter"        name="SlimKatXperia/packages_apps_SlimCenter"           remote="github"     revision="kk4.4"/>
-    <project path="packages/apps/OTAUpdater"        name="XperiaSTE/android_packages_apps_OTAUpdater"       remote="github"     revision="aosx"/>
+    <project path="packages/apps/OTAUpdater"        name="XperiaSTE/android_packages_apps_OTAUpdater"       remote="github"     revision="twrp"/>
 
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
