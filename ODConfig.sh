@@ -9,9 +9,9 @@ if [ "$VERSION" == "" ]; then
 fi
 
 if [ "$VERSION" == "" ]; then
-        echo "Abort: no version number, use future version instead this build version ( 1.0.2 | 8 |...)" >&2
+        echo "Abort: no version number, use future version instead of this build version ( 1.0.2 | 8 |...)" >&2
         exit 1
 fi
-sed -i 's/^\(.*ro.dela.version=\).*/\1'"$VERSION"'/' device/sony/montblanc-common/montblanc.mk
+sed -i 's/^\(.*ro.delta.version=\).*/\1'"$VERSION"'/' device/sony/montblanc-common/montblanc.mk
 echo "Version number verification:"
-sed -n '/ro.dela.version=/p' device/sony/montblanc-common/montblanc.mk
+sed -n '/ro.delta.version=/p' device/sony/montblanc-common/montblanc.mk
