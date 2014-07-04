@@ -12,25 +12,25 @@ if [[ $# = 1 ]]; then
        brunch kumquat;
     ;;
     -ru)
-      lunch full_kumquat-userdebug && make otapackage -j12;
+      lunch full_kumquat-userdebug && make otapackage -j8;
     ;;
     -p)
       brunch nypon;
     ;;
     -rp)
-      lunch full_nypon-userdebug && make otapackage -j12;
+      lunch full_nypon-userdebug && make otapackage -j8;
     ;;
     -s)
       brunch pepper;
     ;;
     -rs)
-      lunch full_pepper-userdebug && make otapackage -j2;
+      lunch full_pepper-userdebug && make otapackage -j8;
     ;;
     -g)
       brunch lotus;
     ;;
     -rg)
-      lunch full_lotus-userdebug && make otapackage -j12;
+      lunch full_lotus-userdebug && make otapackage -j8;
     ;;
     *)
       echo "ERROR: Unknow option";
