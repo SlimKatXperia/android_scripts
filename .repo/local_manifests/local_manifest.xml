@@ -42,12 +42,6 @@
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
     
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
-    <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
-    <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="master"/>
-    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" revision="master"/>
-    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"  revision="master"/>
- 
     <project path="art"                         name="SlimKatXperia/android_art"                         remote="github"     revision="master" />   
     <project path="external/bluetooth/bluez"    name="SlimKatXperia/android_external_bluetooth_bluez"    remote="github"     revision="master"/>
     <project path="external/bluetooth/sbc"      name="bluetooth/sbc"                                     remote="kernel"     revision="master" groups="pdk" />
@@ -78,9 +72,14 @@
     <project path="kernel/sony/u8500"             name="SlimKatXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
     <project path="vendor/sony"                   name="SlimKatXperia/android_vendor_sony"                  remote="github"     revision="master" />
     <project path="hardware/ste-sony"             name="SlimKatXperia/android_hardware_ste-sony"            remote="github"     revision="master" />
-  
-    <!-- arm eabi 4.4.3 and 4.7 toolchain -->
-    <project path="prebuilt/linux-x86/toolchain" name="LegacySlimXperia/arm-eabi-4.4.3" remote="github" revision="master" />
+    
+    <!-- arm eabi 4.8 toolchains -->
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
+    <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
+    <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="master"/>
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" revision="master"/>
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"  revision="master"/>
+    <!-- arm eabi 4.7 toolchain -->
     <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
     <!-- CM wpa_supplicant_ti -->
     <project path="external/wpa_supplicant_8_ti"	name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
