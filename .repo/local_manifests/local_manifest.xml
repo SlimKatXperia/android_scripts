@@ -42,25 +42,25 @@
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
     
-    <project path="art"                         name="SlimKatXperia/android_art"                         remote="github"     revision="master" />   
+    <project path="art"                         name="SlimKatXperia/android_art"                         remote="github"     revision="kk4.4" />   
     <project path="external/bluetooth/bluez"    name="SlimKatXperia/android_external_bluetooth_bluez"    remote="github"     revision="master"/>
     <project path="external/bluetooth/sbc"      name="bluetooth/sbc"                                     remote="kernel"     revision="master" groups="pdk" />
     <project path="external/bluetooth/glib"     name="aosp-bluez.glib"                                   remote="googlecode" revision="master" groups="pdk" />
-    <project path="bionic"                      name="SlimKatXperia/android_bionic"                      remote="github"     revision="master" />
-    <project path="hardware/libhardware"        name="SlimKatXperia/hardware_libhardware"                remote="github"     revision="master" />
-    <project path="hardware/libhardware_legacy" name="SlimKatXperia/hardware_libhardware_legacy"         remote="github"     revision="master" />
-    <project path="system/core"                 name="SlimKatXperia/android_system_core"                 remote="github"     revision="master" />
-    <project path="frameworks/av"               name="SlimKatXperia/frameworks_av"                       remote="github"     revision="master" />
-    <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="master" />
-    <project path="frameworks/native"           name="SlimKatXperia/frameworks_native"                   remote="github"     revision="master" />
-    <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="master" />
-    <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
+    <project path="bionic"                      name="SlimKatXperia/android_bionic"                      remote="github"     revision="kk4.4" />
+    <project path="hardware/libhardware"        name="SlimKatXperia/hardware_libhardware"                remote="github"     revision="kk4.4" />
+    <project path="hardware/libhardware_legacy" name="SlimKatXperia/hardware_libhardware_legacy"         remote="github"     revision="kk4.4" />
+    <project path="system/core"                 name="SlimKatXperia/android_system_core"                 remote="github"     revision="kk4.4" />
+    <project path="frameworks/av"               name="SlimKatXperia/frameworks_av"                       remote="github"     revision="kk4.4" />
+    <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="kk4.4" />
+    <project path="frameworks/native"           name="SlimKatXperia/frameworks_native"                   remote="github"     revision="kk4.4" />
+    <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="kk4.4" />
+    <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="kk4.4"  >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project> 
-    <project path="system/netd"                     name="SlimKatXperia/android_system_netd"                remote="github"     revision="master" />
+    <project path="system/netd"                     name="SlimKatXperia/android_system_netd"                remote="github"     revision="kk4.4" />
     <project path="external/valgrind"               name="SlimKatXperia/android_external_valgrind"          remote="github"     revision="master" />
-    <project path="packages/inputmethods/LatinIME"  name="SlimKatXperia/packages_inputmethods_LatinIME"     remote="github"     revision="master"/>
-    <project path="packages/apps/Settings"          name="SlimKatXperia/packages_apps_Settings"             remote="github"     revision="master"/>
+    <project path="packages/inputmethods/LatinIME"  name="SlimKatXperia/packages_inputmethods_LatinIME"     remote="github"     revision="kk4.4"/>
+    <project path="packages/apps/Settings"          name="SlimKatXperia/packages_apps_Settings"             remote="github"     revision="kk4.4"/>
     <project path="packages/apps/SlimCenter"        name="SlimKatXperia/packages_apps_SlimCenter"           remote="github"     revision="kk4.4"/>
     <project path="packages/apps/OpenDelta"         name="SlimKatXperia/packages_apps_OpenDelta"            remote="github"     revision="master"/>
 
