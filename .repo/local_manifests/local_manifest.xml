@@ -64,7 +64,7 @@
     <project path="packages/apps/Settings"          name="SlimKatXperia/packages_apps_Settings"             remote="github"     revision="kk4.4"/>
     <project path="packages/apps/SlimCenter"        name="SlimKatXperia/packages_apps_SlimCenter"           remote="github"     revision="kk4.4"/>
     <project path="packages/apps/OpenDelta"         name="SlimKatXperia/packages_apps_OpenDelta"            remote="github"     revision="master"/>
-    <project path="vendor/slim"                     name="SlimKatXperia/vendor_slim"                        remote="github"     revision="kk4.4"  >
+    <project path="vendor/slim"                     name="SlimKatXperia/vendor_slim"                        remote="github"     revision="kk4.4" />
     
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
