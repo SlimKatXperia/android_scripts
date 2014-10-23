@@ -23,6 +23,7 @@
     <remove-project name="SlimRoms/android_system_netd" />
     <remove-project name="SlimRoms/android_art" />
     <remove-project name="platform/external/valgrind"            groups="pdk" />
+    <remove-project name="SlimRoms/vendor_slim" />
     
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
@@ -63,7 +64,8 @@
     <project path="packages/apps/Settings"          name="SlimKatXperia/packages_apps_Settings"             remote="github"     revision="kk4.4"/>
     <project path="packages/apps/SlimCenter"        name="SlimKatXperia/packages_apps_SlimCenter"           remote="github"     revision="kk4.4"/>
     <project path="packages/apps/OpenDelta"         name="SlimKatXperia/packages_apps_OpenDelta"            remote="github"     revision="master"/>
-
+    <project path="vendor/slim"                     name="SlimKatXperia/vendor_slim"                        remote="github"     revision="kk4.4"  >
+    
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
     <project path="device/sony/kumquat"           name="SlimKatXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
